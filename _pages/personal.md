@@ -20,6 +20,6 @@ also stuff!
 
 heres a picture
 
-failure 2
+failure 3
 
-![Rainier]('images/rainier.jpg')
+![Rainier]('../images/rainier.jpg')
