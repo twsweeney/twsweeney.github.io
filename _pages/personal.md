@@ -20,4 +20,6 @@ also stuff!
 
 heres a picture
 
+failure
+
 ![Rainier]('/images/rainier.jpg')
