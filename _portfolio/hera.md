@@ -1,6 +1,6 @@
 ---
 title: "Cleaning Hydrogen Epoch of Reionization Data"
-excerpt: "Add a super cool and awesome one liner <br/><img src='/images/hera_waterfall.png'>"
+excerpt: "Add a super cool and awesome one liner <br/><img src='/images/portfolio_images/hera/hera_waterfall.png'>"
 collection: portfolio
 ---
 
