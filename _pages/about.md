@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-This is Thomas's test website. Its gonna be super cool.
-======
+# Hi molly I love you <3
 
+This is Thomas's test website. Its gonna be super cool. 
 
-# MARKDOWN 
-## is 
-===
-### cool 
+Just testing out everything for now. 
 
-**bold**
+# HEADING 
+
+ok heres a picture 
+
 
 -![Editing a markdown file for a talk](/images/rainier.jpg "Editing a markdown file for a talk")
