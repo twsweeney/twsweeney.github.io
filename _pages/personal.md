@@ -13,13 +13,8 @@ redirect_from:
 
 I like things 
 
-=====
 
 also stuff!
 
 
-heres a picture
 
-failure 3
-
-![Rainier]('../images/rainier.jpg')

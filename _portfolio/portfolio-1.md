@@ -1,7 +1,11 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/rainier.jpg'>"
+title: "Fitting SN-1A using Monte Carlo Simulation"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/sn_data_fitting.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+This was a project I did for my cosmology final wow cool
+
+Make sure to add the github 
+
+and pretty pictures too!
