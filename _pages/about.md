@@ -18,3 +18,5 @@ This is Thomas's test website. Its gonna be super cool.
 ### cool 
 
 **bold**
+
+-![Editing a markdown file for a talk](/images/rainier.jpg "Editing a markdown file for a talk")
