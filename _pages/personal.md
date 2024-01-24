@@ -20,4 +20,4 @@ also stuff!
 
 heres a picture
 
-![Rainier]('rainier.jpg')
+![Rainier]('/images/rainier.jpg')
