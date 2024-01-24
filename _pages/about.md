@@ -8,7 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-# Hi Molly I love you <3
 
 This is Thomas's test website. Its gonna be super cool. 
 
