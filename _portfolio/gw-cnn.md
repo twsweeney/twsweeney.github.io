@@ -1,6 +1,6 @@
 ---
 title: "Gravitational Wave Classifier"
-excerpt: "System of convolutional neural networks to classify gravitational wave data <br/><img src='/images/portfolio_images/gw_cnn/figures/bbh_example.gif'>"
+excerpt: "System of convolutional neural networks to classify gravitational wave data <br/><img src='/images/portfolio_images/gw-cnn/figures/bbh_example.gif'>"
 collection: portfolio
 ---
 
@@ -21,7 +21,7 @@ The aim of this project was to take a dataset of "Strain" gravitational wave dat
 
 Einstein's general theory of relativity tells us that massive objects curve and distort spacetime. So as objects move through space, the curvature of spacetime changes as well to reflect the location of mass. This means that Objects accelerating quickly will create detectable ripples in spacetime, what we call gravitational waves. 
 
-![Animation of a binary black hole merger and gravtiational wave.](/images/portfolio_images/gw_cnn/figures/bbh_example.gif)
+![Animation of a binary black hole merger and gravtiational wave.](/images/portfolio_images/gw-cnn/figures/bbh_example.gif)
 GIF source: [LIGO/T. Pyle](https://www.ligo.caltech.edu/video/ligo20160615v1)*
 
 The gravitational wave signal is incredibly weak, so to detect them an incredibly sensitive instrument is used. A gravitational wave will stretch and compress spacetime, so lasers are used to constantly measure a section of space. If a gravitational wave goes through the observatory, then the length of space will slightly change. This stretching and pulling is summarized in our dataset as a feature called "strain". This feature is a unitless quantity that encapsulates the change in length of the LIGO arms. To learn more about this, see the [LIGO website](https://www.ligo.caltech.edu/page/ligo-gw-interferometer). 
@@ -31,11 +31,11 @@ The gravitational wave signal is incredibly weak, so to detect them an incredibl
 
 The dataset used in this project consisted of 8192 one-second segments of strain versus time data. Each second of data includes measurements from both LIGO detectors, one located in Hanford, Washington, and the other in Livingston, Louisiana. The dataset was labeled based on categories, with 2048 examples available for each category.Here is an example of the raw strain vs time data: 
 
-![Strain vs Time Example image](/images/portfolio_images/gw_cnn/figures/strain_time_data.png)
+![Strain vs Time Example image](/images/portfolio_images/gw-cnn/figures/strain_time_data.png)
 
 The data is very noisy and it is very difficult to see any distinct features. To prepare our data for the classifier, it is effective to represent in frequency vs time space in a spectrogram. The specific transformation used in this project was a [Q-Transform](https://en.wikipedia.org/wiki/Constant-Q_transform). When a this transformation is done on each of the datapoints, some clear features appear: 
 
-![Example Spectrograms](/images/portfolio_images/gw_cnn/figures/spectrogram_examples.png)
+![Example Spectrograms](/images/portfolio_images/gw-cnn/figures/spectrogram_examples.png)
 
 It can be seen that the BBH signal appears as a chirp-like signal, the CCSN is a large signal localized in time, the glitch is an odd looking spike at a single instant, and the background has no disticnt features. Now that we have translated our raw data into images and want to classify them, applying a convolutional neural network seems appropriate. 
 
@@ -50,7 +50,7 @@ Each classifier is a CNN with 7 layers consisting of a convolution, batch normal
 
 The performance of our model is summarized in this confusion matrix: 
 
-![Confusion Matrix](/images/portfolio_images/gw_cnn/figures/03_03_confusion_matrix.png)
+![Confusion Matrix](/images/portfolio_images/gw-cnn/figures/03_03_confusion_matrix.png)
 
 The model classifies the signals very effectively. The model does seem to overclassify images as background. This issue likely comes from not all glitches being the same, and the model not seeing enough examples of each type of glitch. 
 
