@@ -1,9 +1,10 @@
 ---
 title: "Gravitational Wave Classifier"
-excerpt: "System of convolutional neural networks to classify gravitational wave data <br/><img src='/images/portfolio_images/gw_cnn/figures/03_03_confusion_matrix.png'>"
+excerpt: "System of convolutional neural networks to classify gravitational wave data <br/><img src='/images/portfolio_images/gw_cnn/figures/bbh_example.gif'>"
 collection: portfolio
 ---
 
+The code for this project can be found on my [Github](https://github.com/twsweeney/phys-417-cnn-project)
 
 # Introduction
 
@@ -21,7 +22,7 @@ The aim of this project was to take a dataset of "Strain" gravitational wave dat
 Einstein's general theory of relativity tells us that massive objects curve and distort spacetime. So as objects move through space, the curvature of spacetime changes as well to reflect the location of mass. This means that Objects accelerating quickly will create detectable ripples in spacetime, what we call gravitational waves. 
 
 ![Animation of a binary black hole merger and gravtiational wave.](/images/portfolio_images/gw_cnn/figures/bbh_example.gif)
-*GIF source: [LIGO/T. Pyle](https://www.ligo.caltech.edu/video/ligo20160615v1)*
+GIF source: [LIGO/T. Pyle](https://www.ligo.caltech.edu/video/ligo20160615v1)*
 
 The gravitational wave signal is incredibly weak, so to detect them an incredibly sensitive instrument is used. A gravitational wave will stretch and compress spacetime, so lasers are used to constantly measure a section of space. If a gravitational wave goes through the observatory, then the length of space will slightly change. This stretching and pulling is summarized in our dataset as a feature called "strain". This feature is a unitless quantity that encapsulates the change in length of the LIGO arms. To learn more about this, see the [LIGO website](https://www.ligo.caltech.edu/page/ligo-gw-interferometer). 
 
