@@ -1,6 +1,6 @@
 ---
 title: "Gravitational Wave Classifier"
-excerpt: "System of convolutional neural networks to classify gravitational wave data <br/><img src='/images/portfolio_images/gw-cnn/figures/bbh_example.gif'>"
+excerpt: "System of convolutional neural networks to classify gravitational wave data <br/><img src='/images/portfolio_images/gw-cnn/bbh_example.gif'>"
 collection: portfolio
 ---
 
